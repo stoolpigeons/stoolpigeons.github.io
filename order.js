@@ -1,5 +1,11 @@
 var stageCount =1;
 
+var client = {
+    "clientName":"",
+    "clientEmail":"",
+    "null":"",
+};
+
 const stage1 = {
     "title":"Lets start",
     "info":"First, lets get a name for this order:",
@@ -15,17 +21,13 @@ const stage2 = {
 };
 
 const stage3 = {
-    "title":"s3title",
-    "info":"s3info",
-    "subtext":"s3subtext",
-    "varToStore":"clientVar3"
+    "title":"Got it",
+    "info":"Your name is " + client["clientName"] +", and your email is " + client["clientEmail"] +".",
+    "subtext":"Made a mistake? Click the button to re-submit your credentials.",
+    "varToStore":"null"
 };
 
-var client = {
-    "clientName":"",
-    "clientEmail":"",
-    "clientVar3":""
-};
+
 
 const stageIndex=[];
 stageIndex["s1"] = stage1;
@@ -41,22 +43,37 @@ var textF = document.getElementById("cName");
 
 
  function fadeReset() {
+    stageIndex["s3"]["info"] = "Your name is " + client["clientName"] +", and your email is " + client["clientEmail"] +"."
     orderI.innerHTML = stageIndex["s" + stageCount]["info"];
     orderS.innerHTML = stageIndex["s" + stageCount]["subtext"];
     orderT.innerHTML = stageIndex["s" + stageCount]["title"];
     fade("in", orderJ, 20, null)
+    if(stageCount == (Object.keys(stageIndex).length)) {
+        textF.style.display = 'none';
+    }
+    else{
+        textF.style.display = 'inline';
+    }
 
 }
 
 function submitButton() {
-    if(textF.value != ""){
-        client[stageIndex["s" + stageCount]["varToStore"]] = document.getElementById("cName").value;
+    if(stageCount == Object.keys(stageIndex).length) {
+            stageCount = 1;
+            fade("out", orderJ, 10, true);
+    }
+    else if(textF.value != ""){
+        if(stageCount != Object.keys(stageIndex).length){
+            client[stageIndex["s" + stageCount]["varToStore"]] = textF.value;
+            fade("out", orderJ, 10, true);
+            stageCount += 1;
+            console.log("User input '" + client[stageIndex["s" + stageCount]["varToStore"]] + ".");
+        }
+
+
+
+
         textF.value = "";
-        console.log("User input '" + client[stageIndex["s" + stageCount]["varToStore"]] + ".");
-        fade("out", orderJ, 10, true);
-        stageCount += 1;
-
-
         //Form req
         return false;
 
@@ -124,18 +141,16 @@ orderT.innerHTML = stageIndex["s" + stageCount]["title"];
 fade("in", orderJ, 20, null)
 console.log("'order.js' enabled")
 
-function test(){
+function submitOrder() {
     Email.send(
     "pigeonorderrecieve@gmail.com",
     "pigeonorderrecieve@gmail.com",
-    "OmgYas",
+    "Order from " + client["clientName"] + " at " + client["clientEmail"],
     "It work omg",
     {
-        token: "8b8e07b3-2f54-4291-877c-2ef7ab9c2d17",
-        callback: function done(message) { alert("sent") }   
-    }
+        token: "8b8e07b3-2f54-4291-877c-2ef7ab9c2d17", 
+    }   
 );
 }
 
-//token: 8b8e07b3-2f54-4291-877c-2ef7ab9c2d17
 
