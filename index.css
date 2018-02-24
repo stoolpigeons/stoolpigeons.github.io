@@ -1,0 +1,88 @@
+
+:root {
+	  --highlight:#63b29d;
+	  --pigeonWhite:#f2f2f2;
+	  --pic1Pos: 500px;
+}
+
+::selection {
+  
+  background: var(--highlight);
+  color: var(--pigeonWhite);
+}
+::-moz-selection {
+  background: var(--highlight);
+  color :var(--pigeonWhite);
+}
+
+/* HSL 
+$color1: hsla(202%, 56%, 44%, 1);
+$color2: hsla(192%, 58%, 53%, 1);
+$color3: hsla(193%, 4%, 45%, 1);
+$color4: hsla(0%, 0%, 95%, 1);
+$color5: hsla(339%, 37%, 41%, 1);
+*/
+/* RGB 
+$color1: rgba(49, 129, 175, 1);
+$color2: rgba(65, 176, 204, 1);
+$color3: rgba(110, 117, 119, 1);
+$color4: rgba(242, 242, 242, 1);
+$color5: rgba(142, 65, 92, 1);
+*/
+
+
+.sButton {
+	background-color: #8c777e; 
+	color: var(--pigeonWhite);
+	border-color:#e2e2e2;
+
+}
+
+a:visited {
+	color: var(--pigeonWhite);
+
+}
+
+.btn-primary:hover {
+	background-color:#a2a2a2; 
+	border-color:#a2a2a2;
+}
+
+#picJ1 {
+	background-image: url("pic1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: var(--pigeonWhite);
+	z-index: 10;
+	position: absolute;
+	top: var(--pic1Pos);
+}
+
+
+
+#img1 {
+	position: absolute;
+	top: var(--pic1Pos);
+	width: 75%;
+}
+
+
+.br10 {
+	padding-bottom: 1000px;
+}
+
+.glassBG {
+	background-color: rgba(99, 178, 157, 0.75);
+	border: 5px;
+	border-radius:5px;
+}
+
+.glassBG::selection {
+  
+  background: transparent;
+  color: var(--pigeonWhite);
+}
+.glassBG::-moz-selection {
+  background: transparent;
+  color :var(--pigeonWhite);
+}

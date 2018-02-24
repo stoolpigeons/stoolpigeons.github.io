@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+		<link rel="stylesheet" href="index.css">
+	</head>
+	<body style="background-color: #41b0cc">
+		<br>
+		<br>
+		<br>
+		<br>
+		<div class="jumbotron jumbotron-fluid" style="background-color: var(--pigeonWhite);">
+			<div id="orderWindow">
+	  			<div class="container">
+	    			<h1 class="display-4" id="orderTitle">Lets start</h1>
+	    			<p class="lead" id="orderInfo">First, lets get a name for this order:</p>
+	    			<p id ="orderSubtext">Psst! Make sure you know what you're getting into; We don't do refunds nor returns...<p1>
+	    			<form>
+					  <input type="text" name="BuyerName" style="background-color: var(--pigeonWhite);" id="cName"><br>
+					  <br>
+					  <button type="button" class="sButton btn btn-primary" onclick="submitButton()">OK</button>
+					</form>
+	  			</div>
+  			</div>
+		</div>
+		<a href="index.html" style="padding-left: 30px; text-decoration: none;">I changed my mind. I'll head home for now.</a>
+		<script src="https://smtpjs.com/v2/smtp.js"></script>
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="order.js"></script>
+	</body>
+</html>
+<!-- name contact numberofshirts-sizes upload-design-request-or-pick-->
