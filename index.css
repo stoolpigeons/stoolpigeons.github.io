@@ -9,10 +9,12 @@
   
   background: var(--highlight);
   color: var(--pigeonWhite);
+  border-radius: 5px;
 }
 ::-moz-selection {
   background: var(--highlight);
   color :var(--pigeonWhite);
+  border-radius: 5px;
 }
 
 /* HSL 
@@ -56,6 +58,7 @@ a:visited {
 	z-index: 10;
 	position: absolute;
 	top: var(--pic1Pos);
+	height:292px;
 }
 
 
@@ -85,4 +88,30 @@ a:visited {
 .glassBG::-moz-selection {
   background: transparent;
   color :var(--pigeonWhite);
+}
+
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile + label {
+    font-size: 1.25em;
+    background-color: #8c777e; 
+	color: var(--pigeonWhite);
+	border-color:#e2e2e2;
+    display: inline-block;
+    border-radius: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color:#a2a2a2; 
+	border-color:#a2a2a2;
 }
