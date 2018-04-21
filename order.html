@@ -8,19 +8,106 @@
 		<br>
 		<br>
 		<br>
-		<div class="jumbotron jumbotron-fluid" style="background-color: var(--pigeonWhite);">
+		<div class="jumbotron jumbotron-fluid" style="background-color: var(--pigeonWhite);" id="entireWindow">
 			<div id="orderWindow">
 	  			<div class="container">
 	    			<h1 class="display-4" id="orderTitle">Lets start</h1>
 	    			<p class="lead" id="orderInfo">First, lets get a name for this order:</p>
-	    			<p id ="orderSubtext">Psst! Make sure you know what you're getting into; We don't do refunds nor returns...<p1>
-	    			<form>
-					  <input type="text" name="BuyerName" style="background-color: var(--pigeonWhite);" id="cName"><br>
-					  <br>
-					  <button type="button" class="sButton btn btn-primary" onclick="submitButton()">↳</button>
-					</form>
+	    			<p id ="orderSubtext">Psst! Make sure you know what you're getting into; We don't do refunds nor returns...</p>
+					<input type="text" name="BuyerName" style="background-color: var(--pigeonWhite);" id="cName"><br>
+					<br>
+					<br>
+					<button type="button" class="sButton btn btn-primary" onclick="submitButton()">↳</button>
+					<br>
+					<br>
+
+					<button type="button" class="sButton btn btn-primary" onclick="nextStep()" id="nextButton" style="display: none; opacity: 0;">Design your t-shirt</button>
 	  			</div>
   			</div>
+		</div>
+
+		<!--DesignWindow-->
+		<div class="jumbotron jumbotron-fluid" style="background-color: var(--pigeonWhite); display: none; opacity: 0;" id="designWindow">
+			<div id="designWindow">
+	  			<div class="container">
+	  				<h1 class="display-4">Make it perfect</h1>
+	  				<p class="lead">Design the perfect t-shirt</p>
+	  				<br>
+	  				<hr class="my-4">
+	  				<p class="lead">Shirt Color</p>
+					<p id="showColorPicked" class="lead">No color selected</p>
+	  				<div class="dropdown">
+						  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    Pick a color
+						  </button>
+						  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+						    <button class="dropdown-item" type="button" onclick="client['clientShirtColor']='Blue'; sColor.innerHTML = client['clientShirtColor']">Blue</button>
+						    <button class="dropdown-item" type="button" onclick="client['clientShirtColor']='Grey'; sColor.innerHTML = client['clientShirtColor']">Grey</button>
+						    <button class="dropdown-item" type="button" onclick="client['clientShirtColor']='White'; sColor.innerHTML = client['clientShirtColor']">White</button>
+						    <button class="dropdown-item" type="button" onclick="client['clientShirtColor']='Black'; sColor.innerHTML = client['clientShirtColor']">Black</button>
+						    <button class="dropdown-item" type="button" onclick="client['clientShirtColor']='Red'; sColor.innerHTML = client['clientShirtColor']">Red</button>
+						    <button class="dropdown-item" type="button" onclick="client['clientShirtColor']='Orange'; sColor.innerHTML = client['clientShirtColor']">Orange</button>
+						    <button class="dropdown-item" type="button" onclick="client['clientShirtColor']='Pink'; sColor.innerHTML = client['clientShirtColor']">Pink</button>
+						    <button class="dropdown-item" type="button" onclick="client['clientShirtColor']='Purple'; sColor.innerHTML = client['clientShirtColor']">Purple</button>
+						    <button class="dropdown-item" type="button" onclick="client['clientShirtColor']='Yellow'; sColor.innerHTML = client['clientShirtColor']">Yellow</button>
+						  </div>
+					</div>
+					<hr class="my-4">
+					<p class="lead">Upload Design</p>
+					<input type="file" name="file" id="file" class="inputfile" accept=".png, .jpg, .jpeg" onchange="encodeImageFileAsURL(this)"/>
+					<label for="file">Choose a file</label>
+					<br class="br10">
+					<img src="#" id="fileDisplay" style="display: none;">
+					<hr class="my-4">
+					<p class="lead">Design Color</p>
+					<p id="showColorPickedDes" class="lead">No color selected</p>
+	  				<div class="dropdown">
+						  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    Pick a color
+						  </button>
+						  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+						    <button class="dropdown-item" type="button" onclick="client['clientDesignColor]='Blue'; dColor.innerHTML = client['clientDesignColor']">Blue</button>
+						    <button class="dropdown-item" type="button" onclick="client['clientDesignColor']='Grey'; dColor.innerHTML = client['clientDesignColor']">Grey</button>
+						    <button class="dropdown-item" type="button" onclick="client['clientDesignColor']='White'; dColor.innerHTML = client['clientDesignColor']">White</button>
+						    <button class="dropdown-item" type="button" onclick="client['clientDesignColor']='Black'; dColor.innerHTML = client['clientDesignColor']">Black</button>
+						    <button class="dropdown-item" type="button" onclick="client['clientDesignColor']='Red'; dColor.innerHTML = client['clientDesignColor']">Red</button>
+						    <button class="dropdown-item" type="button" onclick="client['clientDesignColor']='Orange'; dColor.innerHTML = client['clientDesignColor']">Orange</button>
+						    <button class="dropdown-item" type="button" onclick="client['clientDesignColor']='Pink'; dColor.innerHTML = client['clientDesignColor']">Pink</button>
+						    <button class="dropdown-item" type="button" onclick="client['clientDesignColor']='Purple'; dColor.innerHTML = client['clientDesignColor']">Purple</button>
+						    <button class="dropdown-item" type="button" onclick="client['clientDesignColor']='Yellow'; dColor.innerHTML = client['clientDesignColor']">Yellow</button>
+						  </div>
+					</div>
+					<br>
+	  				<hr class="my-4">
+					<p class="lead">Design Placement</p>
+					<p id="showPlacePicked" class="lead">No position selected</p>
+					<div class="dropdown">
+						  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						    Design Positions
+						  </button>
+						  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+						    <button class="dropdown-item" type="button" onclick="client['clientDesignPosition']='Small-Top Right'; dPos.innerHTML = client['clientDesignPosition']">Small-Top Right</button>
+						    <button class="dropdown-item" type="button" onclick="client['clientDesignPosition']='Small-Top Left'; dPos.innerHTML = client['clientDesignPosition']">Small-Top Left</button>
+						    <button class="dropdown-item" type="button" onclick="client['clientDesignPosition']='Small-Top Middle'; dPos.innerHTML = client['clientDesignPosition']">Small-Top Middle</button>
+						    <button class="dropdown-item" type="button" onclick="client['clientDesignPosition']='Small-Midriff'; dPos.innerHTML = client['clientDesignPosition']">Small-Midriff</button>
+						    <button class="dropdown-item" type="button" onclick="client['clientDesignPosition']='Large-Entire shirt'; dPos.innerHTML = client['clientDesignPosition']">Large-Entire shirt</button>
+						  </div>
+					</div>
+					<hr class="my-4">
+					<p class="lead">Order Size</p>
+					<input id="number" type="number" value="1" min=1 max=25 >
+					<hr class="my-4">
+					<button type="button" class="submitButton sButton btn btn-primary" onclick="orderButton()" id="orderButton">Submit Order</button>
+
+	  			</div>
+  			</div>
+		</div>
+		<div class="jumbotron jumbotron-fluid" style="background-color: var(--pigeonWhite); display: none; opacity: 0;" id="confirmWindow">
+				<div class="container">
+					<h1 class="display-4">Done!</h1>
+					<p class="lead">Your order has been submitted! Please wait for an email from |email| in the next 3-5 buisiness days on how to pay for/recieve your order.</p>
+					<a class="sButton btn btn-primary btn-lg " href="index.html" role="button">Take me home!</a>
+				</div>
 		</div>
 		<a href="index.html" style="padding-left: 30px; text-decoration: none;">I changed my mind. I'll head home for now.</a>
 		<script src="https://smtpjs.com/v2/smtp.js"></script>
@@ -30,3 +117,4 @@
 		<script type="text/javascript" src="order.js"></script>
 	</body>
 </html>
+<!-- name contact numberofshirts-sizes upload-design-request-or-pick-->
