@@ -1,1 +1,236 @@
-var _0x6dde=["","\x4C\x65\x74\x27\x73\x20\x73\x74\x61\x72\x74","\x46\x69\x72\x73\x74\x2C\x20\x6C\x65\x74\x27\x73\x20\x67\x65\x74\x20\x61\x20\x6E\x61\x6D\x65\x20\x66\x6F\x72\x20\x74\x68\x69\x73\x20\x6F\x72\x64\x65\x72\x3A","\x50\x73\x73\x74\x21\x20\x4D\x61\x6B\x65\x20\x73\x75\x72\x65\x20\x79\x6F\x75\x20\x6B\x6E\x6F\x77\x20\x77\x68\x61\x74\x20\x79\x6F\x75\x27\x72\x65\x20\x67\x65\x74\x74\x69\x6E\x67\x20\x69\x6E\x74\x6F\x3B\x20\x57\x65\x20\x64\x6F\x6E\x27\x74\x20\x64\x6F\x20\x72\x65\x66\x75\x6E\x64\x73\x20\x6E\x6F\x72\x20\x72\x65\x74\x75\x72\x6E\x73\x2E\x2E\x2E","\x63\x6C\x69\x65\x6E\x74\x4E\x61\x6D\x65","\x4D\x61\x6B\x65\x20\x73\x75\x72\x65\x20\x77\x65\x20\x63\x61\x6E\x20\x74\x61\x6C\x6B","\x4E\x65\x78\x74\x2C\x20\x77\x65\x20\x77\x69\x6C\x6C\x20\x6E\x65\x65\x64\x20\x61\x6E\x20\x65\x6D\x61\x69\x6C\x2E\x20\x50\x72\x65\x66\x65\x72\x61\x62\x6C\x79\x20\x74\x68\x65\x20\x63\x6C\x75\x62\x2F\x62\x75\x69\x73\x69\x6E\x65\x73\x73\x20\x65\x6D\x61\x69\x6C\x20\x6F\x66\x20\x79\x6F\x75\x72\x20\x63\x6C\x75\x62\x2F\x62\x75\x69\x73\x69\x6E\x65\x73\x73\x2E","\x50\x6C\x65\x61\x73\x65\x20\x64\x6F\x20\x6E\x6F\x74\x20\x67\x69\x76\x65\x20\x75\x73\x20\x61\x20\x66\x61\x6B\x65\x20\x65\x6D\x61\x69\x6C\x3B\x20\x49\x74\x20\x77\x69\x6C\x6C\x20\x68\x75\x72\x74\x20\x79\x6F\x75\x20\x61\x6C\x6F\x74\x20\x6D\x6F\x72\x65\x20\x74\x68\x61\x6E\x20\x69\x74\x20\x77\x69\x6C\x6C\x20\x68\x75\x72\x74\x20\x75\x73\x2E","\x63\x6C\x69\x65\x6E\x74\x45\x6D\x61\x69\x6C","\x47\x6F\x74\x20\x69\x74\x21","\x4E\x61\x6D\x65\x3A\x20","\x3C\x2F\x62\x72\x3E","\x45\x6D\x61\x69\x6C\x3A\x20","\x4D\x61\x64\x65\x20\x61\x20\x6D\x69\x73\x74\x61\x6B\x65\x3F\x20\x43\x6C\x69\x63\x6B\x20\x74\x68\x65\x20\x62\x75\x74\x74\x6F\x6E\x20\x74\x6F\x20\x72\x65\x2D\x73\x75\x62\x6D\x69\x74\x20\x79\x6F\x75\x72\x20\x63\x72\x65\x64\x65\x6E\x74\x69\x61\x6C\x73\x2E","\x6E\x75\x6C\x6C","\x73\x31","\x73\x32","\x73\x33","\x63\x6F\x6E\x66\x69\x72\x6D\x57\x69\x6E\x64\x6F\x77","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x6F\x72\x64\x65\x72\x57\x69\x6E\x64\x6F\x77","\x6F\x72\x64\x65\x72\x49\x6E\x66\x6F","\x6F\x72\x64\x65\x72\x53\x75\x62\x74\x65\x78\x74","\x6F\x72\x64\x65\x72\x54\x69\x74\x6C\x65","\x63\x4E\x61\x6D\x65","\x64\x65\x73\x69\x67\x6E\x57\x69\x6E\x64\x6F\x77","\x6E\x65\x78\x74\x42\x75\x74\x74\x6F\x6E","\x66\x69\x6C\x65\x44\x69\x73\x70\x6C\x61\x79","\x69\x6E\x70\x75\x74\x66\x69\x6C\x65","\x73\x68\x6F\x77\x50\x6C\x61\x63\x65\x50\x69\x63\x6B\x65\x64","\x73\x68\x6F\x77\x43\x6F\x6C\x6F\x72\x50\x69\x63\x6B\x65\x64","\x73\x68\x6F\x77\x43\x6F\x6C\x6F\x72\x50\x69\x63\x6B\x65\x64\x44\x65\x73","\x6F\x72\x64\x65\x72\x42\x75\x74\x74\x6F\x6E","\x6E\x75\x6D\x62\x65\x72","\x65\x6E\x74\x69\x72\x65\x57\x69\x6E\x64\x6F\x77","\x70\x72\x65\x73\x73\x65\x64","\x6C\x6F\x67","\x6C\x65\x6E\x67\x74\x68","\x6B\x65\x79\x73","\x6F\x75\x74","\x70\x61\x72\x74\x31\x52\x65\x73\x65\x74","\x74\x69\x74\x6C\x65","\x4C\x65\x74\x27\x73\x20\x72\x65\x73\x74\x61\x72\x74","\x69\x6E\x66\x6F","\x4C\x65\x74\x27\x73\x20\x67\x65\x74\x20\x61\x20\x6E\x61\x6D\x65\x20\x66\x6F\x72\x20\x74\x68\x69\x73\x20\x6F\x72\x64\x65\x72\x2E","\x76\x61\x6C\x75\x65","\x76\x61\x72\x54\x6F\x53\x74\x6F\x72\x65","\x73","\x55\x73\x65\x72\x20\x69\x6E\x70\x75\x74\x20\x27","\x2E","\x69\x6E","\x64\x69\x73\x70\x6C\x61\x79","\x73\x74\x79\x6C\x65","\x62\x6C\x6F\x63\x6B","\x46\x69\x6E\x69\x73\x68\x65\x64\x20\x66\x61\x64\x69\x6E\x67\x20\x69\x6E\x2E","\x6F\x70\x61\x63\x69\x74\x79","\x66\x69\x6C\x74\x65\x72","\x61\x6C\x70\x68\x61\x28\x6F\x70\x61\x63\x69\x74\x79\x3D","\x29","\x46\x69\x6E\x69\x73\x68\x65\x64\x20\x66\x61\x64\x69\x6E\x67\x20\x6F\x75\x74\x2E","\x45\x72\x72\x6F\x72\x3A\x20\x49\x6E\x70\x75\x74\x20\x66\x6F\x72\x20\x66\x61\x64\x65\x28\x66\x75\x6E\x63\x29\x2E\x74\x79\x70\x65\x20\x6E\x6F\x74\x20\x27\x69\x6E\x27\x20\x6F\x72\x20\x27\x6F\x75\x74\x27","\x61\x6C\x70\x68\x61\x28\x6F\x70\x61\x63\x69\x74\x79\x3D\x30\x29","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x73\x75\x62\x74\x65\x78\x74","\x27\x6F\x72\x64\x65\x72\x2E\x6A\x73\x27\x20\x65\x6E\x61\x62\x6C\x65\x64","\x73\x68\x69\x72\x74\x4E\x75\x6D\x62\x65\x72","\x70\x69\x67\x65\x6F\x6E\x6F\x72\x64\x65\x72\x72\x65\x63\x69\x65\x76\x65\x40\x67\x6D\x61\x69\x6C\x2E\x63\x6F\x6D","\x4F\x72\x64\x65\x72\x20\x66\x72\x6F\x6D\x20","\x20\x61\x74\x20","\x20\x7C\x20\x45\x6D\x61\x69\x6C\x3A\x20","\x20\x7C\x20\x53\x68\x69\x72\x74\x20\x51\x75\x61\x6E\x74\x69\x74\x79\x3A\x20","\x20\x7C\x20\x53\x68\x69\x72\x74\x20\x43\x6F\x6C\x6F\x72\x3A\x20","\x63\x6C\x69\x65\x6E\x74\x53\x68\x69\x72\x74\x43\x6F\x6C\x6F\x72","\x20\x7C\x20\x44\x65\x73\x69\x67\x6E\x20\x43\x6F\x6C\x6F\x72\x3A\x20","\x63\x6C\x69\x65\x6E\x74\x44\x65\x73\x69\x67\x6E\x43\x6F\x6C\x6F\x72","\x20\x7C\x20\x44\x65\x73\x69\x67\x6E\x20\x50\x6F\x73\x69\x74\x69\x6F\x6E\x3A\x20","\x63\x6C\x69\x65\x6E\x74\x44\x65\x73\x69\x67\x6E\x50\x6F\x73\x69\x74\x69\x6F\x6E","\x20\x7C\x20\x44\x65\x73\x69\x67\x6E\x3A\x20","\x63\x6C\x69\x65\x6E\x74\x44\x65\x73\x69\x67\x6E","\x36\x33\x63\x62\x33\x61\x31\x39\x2D\x32\x36\x38\x34\x2D\x34\x34\x66\x61\x2D\x62\x37\x36\x66\x2D\x64\x65\x62\x66\x34\x32\x32\x64\x38\x62\x30\x30","\x73\x65\x6E\x64","\x62\x75\x74\x74\x6F\x6E\x52\x65\x73\x65\x74","\x62\x75\x74\x74\x6F\x6E\x4F\x75\x74","\x6E\x6F\x6E\x65","\x6B\x69\x6C\x6C\x44\x4A","\x6B\x69\x6C\x6C\x4F\x4A","\x69\x6E\x6C\x69\x6E\x65","\x41\x72\x65\x20\x79\x6F\x75\x20\x73\x75\x72\x65\x3F","\x66\x69\x6C\x65\x73","\x6F\x6E\x6C\x6F\x61\x64\x65\x6E\x64","\x52\x45\x53\x55\x4C\x54","\x72\x65\x73\x75\x6C\x74","\x73\x72\x63","\x72\x65\x61\x64\x41\x73\x44\x61\x74\x61\x55\x52\x4C"];var savedScripts=[];var stepA=false;var stageCount=1;var randClickProtection=0;var client={"\x63\x6C\x69\x65\x6E\x74\x4E\x61\x6D\x65":_0x6dde[0],"\x63\x6C\x69\x65\x6E\x74\x45\x6D\x61\x69\x6C":_0x6dde[0],"\x6E\x75\x6C\x6C":_0x6dde[0],"\x63\x6C\x69\x65\x6E\x74\x44\x65\x73\x69\x67\x6E":_0x6dde[0],"\x63\x6C\x69\x65\x6E\x74\x53\x68\x69\x72\x74\x43\x6F\x6C\x6F\x72":_0x6dde[0],"\x63\x6C\x69\x65\x6E\x74\x44\x65\x73\x69\x67\x6E\x43\x6F\x6C\x6F\x72":_0x6dde[0],"\x63\x6C\x69\x65\x6E\x74\x44\x65\x73\x69\x67\x6E\x50\x6F\x73\x69\x74\x69\x6F\x6E":_0x6dde[0]};const stage1={"\x74\x69\x74\x6C\x65":_0x6dde[1],"\x69\x6E\x66\x6F":_0x6dde[2],"\x73\x75\x62\x74\x65\x78\x74":_0x6dde[3],"\x76\x61\x72\x54\x6F\x53\x74\x6F\x72\x65":_0x6dde[4]};const stage2={"\x74\x69\x74\x6C\x65":_0x6dde[5],"\x69\x6E\x66\x6F":_0x6dde[6],"\x73\x75\x62\x74\x65\x78\x74":_0x6dde[7],"\x76\x61\x72\x54\x6F\x53\x74\x6F\x72\x65":_0x6dde[8]};const stage3={"\x74\x69\x74\x6C\x65":_0x6dde[9],"\x69\x6E\x66\x6F":_0x6dde[10]+ client[_0x6dde[4]]+ _0x6dde[11]+ _0x6dde[12]+ client[_0x6dde[8]],"\x73\x75\x62\x74\x65\x78\x74":_0x6dde[13],"\x76\x61\x72\x54\x6F\x53\x74\x6F\x72\x65":_0x6dde[14]};const stageIndex=[];stageIndex[_0x6dde[15]]= stage1;stageIndex[_0x6dde[16]]= stage2;stageIndex[_0x6dde[17]]= stage3;var confirmJ=document[_0x6dde[19]](_0x6dde[18]);var orderJ=document[_0x6dde[19]](_0x6dde[20]);var orderI=document[_0x6dde[19]](_0x6dde[21]);var orderS=document[_0x6dde[19]](_0x6dde[22]);var orderT=document[_0x6dde[19]](_0x6dde[23]);var textF=document[_0x6dde[19]](_0x6dde[24]);var designJ=document[_0x6dde[19]](_0x6dde[25]);var nButton=document[_0x6dde[19]](_0x6dde[26]);var fileD=document[_0x6dde[19]](_0x6dde[27]);var inputField=document[_0x6dde[19]](_0x6dde[28]);var dPos=document[_0x6dde[19]](_0x6dde[29]);var sColor=document[_0x6dde[19]](_0x6dde[30]);var dColor=document[_0x6dde[19]](_0x6dde[31]);var bButton=document[_0x6dde[19]](_0x6dde[32]);var shirtNum=document[_0x6dde[19]](_0x6dde[33]);var entireJ=document[_0x6dde[19]](_0x6dde[34]);function submitButton(){console[_0x6dde[36]](_0x6dde[35]);if(stageCount== Object[_0x6dde[38]](stageIndex)[_0x6dde[37]]){stageCount= 1;fade(_0x6dde[39],orderJ,10,true,_0x6dde[40]);stageIndex[_0x6dde[15]][_0x6dde[41]]= _0x6dde[42];stageIndex[_0x6dde[15]][_0x6dde[43]]= _0x6dde[44]}else {if(textF[_0x6dde[45]]!= _0x6dde[0]){if(stageCount!= Object[_0x6dde[38]](stageIndex)[_0x6dde[37]]){client[stageIndex[_0x6dde[47]+ stageCount][_0x6dde[46]]]= textF[_0x6dde[45]];fade(_0x6dde[39],orderJ,10,true,_0x6dde[40]);stageCount+= 1;console[_0x6dde[36]](_0x6dde[48]+ client[stageIndex[_0x6dde[47]+ stageCount][_0x6dde[46]]]+ _0x6dde[49])};textF[_0x6dde[45]]= _0x6dde[0];return false}}}function fade(_0x9ab9x1c,_0x9ab9x1d,_0x9ab9x1e,_0x9ab9x1f,_0x9ab9x20){if(_0x9ab9x1c== _0x6dde[50]){var _0x9ab9x21=false;var _0x9ab9x22=0.1;_0x9ab9x1d[_0x6dde[52]][_0x6dde[51]]= _0x6dde[53];var _0x9ab9x23=setInterval(function(){if(_0x9ab9x22>= 1&& _0x9ab9x21== false){console[_0x6dde[36]](_0x6dde[54]);_0x9ab9x21= true}else {if(_0x9ab9x21== false){_0x9ab9x1d[_0x6dde[52]][_0x6dde[55]]= _0x9ab9x22;_0x9ab9x1d[_0x6dde[52]][_0x6dde[56]]= _0x6dde[57]+ _0x9ab9x22* 100+ _0x6dde[58];_0x9ab9x22+= _0x9ab9x22* 0.1}}},_0x9ab9x1e)}else {if(_0x9ab9x1c== _0x6dde[39]){var _0x9ab9x24=false;var _0x9ab9x22=1;var _0x9ab9x23=setInterval(function(){if(_0x9ab9x22<= 0&& _0x9ab9x24== false){if(_0x9ab9x1f== true){savedScripts[_0x9ab9x20]()};console[_0x6dde[36]](_0x6dde[59]);_0x9ab9x24= true}else {if(_0x9ab9x24== false){_0x9ab9x1d[_0x6dde[52]][_0x6dde[55]]= _0x9ab9x22;_0x9ab9x1d[_0x6dde[52]][_0x6dde[56]]= _0x6dde[57]+ _0x9ab9x22* 100+ _0x6dde[58];_0x9ab9x22-= (_0x9ab9x22* 0.1)+ 0.01}}},_0x9ab9x1e)}else {console[_0x6dde[36]](_0x6dde[60])}}}orderJ[_0x6dde[52]][_0x6dde[55]]= 0;orderJ[_0x6dde[52]][_0x6dde[56]]= _0x6dde[61];orderI[_0x6dde[62]]= stageIndex[_0x6dde[47]+ stageCount][_0x6dde[43]];orderS[_0x6dde[62]]= stageIndex[_0x6dde[47]+ stageCount][_0x6dde[63]];orderT[_0x6dde[62]]= stageIndex[_0x6dde[47]+ stageCount][_0x6dde[41]];fade(_0x6dde[50],orderJ,20,null,null);console[_0x6dde[36]](_0x6dde[64]);function submitOrder(){client[_0x6dde[65]]= shirtNum[_0x6dde[45]];Email[_0x6dde[80]](_0x6dde[66],_0x6dde[66],_0x6dde[67]+ client[_0x6dde[4]]+ _0x6dde[68]+ client[_0x6dde[8]],_0x6dde[10]+ client[_0x6dde[4]]+ _0x6dde[69]+ client[_0x6dde[8]]+ _0x6dde[70]+ client[_0x6dde[65]]+ _0x6dde[71]+ client[_0x6dde[72]]+ _0x6dde[73]+ client[_0x6dde[74]]+ _0x6dde[75]+ client[_0x6dde[76]]+ _0x6dde[77]+ client[_0x6dde[78]],{token:_0x6dde[79]})}savedScripts[_0x6dde[81]]= function(){fade(_0x6dde[50],nButton,20,null,null)};savedScripts[_0x6dde[82]]= function(){nButton[_0x6dde[52]][_0x6dde[51]]= _0x6dde[83]};savedScripts[_0x6dde[84]]= function(){designJ[_0x6dde[52]][_0x6dde[51]]= _0x6dde[83]};savedScripts[_0x6dde[85]]= function(){entireJ[_0x6dde[52]][_0x6dde[51]]= _0x6dde[83]};savedScripts[_0x6dde[40]]= function(){stageIndex[_0x6dde[17]][_0x6dde[43]]= _0x6dde[10]+ client[_0x6dde[4]]+ _0x6dde[11]+ _0x6dde[12]+ client[_0x6dde[8]];orderI[_0x6dde[62]]= stageIndex[_0x6dde[47]+ stageCount][_0x6dde[43]];orderS[_0x6dde[62]]= stageIndex[_0x6dde[47]+ stageCount][_0x6dde[63]];orderT[_0x6dde[62]]= stageIndex[_0x6dde[47]+ stageCount][_0x6dde[41]];fade(_0x6dde[50],orderJ,20,null,null);if(stageCount== (Object[_0x6dde[38]](stageIndex)[_0x6dde[37]])){textF[_0x6dde[52]][_0x6dde[51]]= _0x6dde[83];if(stepA== false){nButton[_0x6dde[52]][_0x6dde[51]]= _0x6dde[86];savedScripts[_0x6dde[81]]();stepA= true}}else {textF[_0x6dde[52]][_0x6dde[51]]= _0x6dde[86]}};function nextStep(){designJ[_0x6dde[52]][_0x6dde[51]]= _0x6dde[86];fade(_0x6dde[50],designJ,20,null,null);fade(_0x6dde[39],nButton,20,true,_0x6dde[82])}function orderButton(){if(randClickProtection< 1){bButton[_0x6dde[62]]= _0x6dde[87];randClickProtection+= 1}else {submitOrder();fade(_0x6dde[39],designJ,20,true,_0x6dde[84]);fade(_0x6dde[39],entireJ,20,true,_0x6dde[85]);confirmJ[_0x6dde[52]][_0x6dde[51]]= _0x6dde[86];fade(_0x6dde[50],confirmJ,20,null,null)}}function encodeImageFileAsURL(_0x9ab9x1d){var _0x9ab9x29=_0x9ab9x1d[_0x6dde[88]][0];var _0x9ab9x2a= new FileReader();_0x9ab9x2a[_0x6dde[89]]= function(){console[_0x6dde[36]](_0x6dde[90],_0x9ab9x2a[_0x6dde[91]]);client[_0x6dde[78]]= _0x6dde[0]+ _0x9ab9x2a[_0x6dde[91]];fileD[_0x6dde[92]]= client[_0x6dde[78]];fileD[_0x6dde[52]][_0x6dde[51]]= _0x6dde[86]};_0x9ab9x2a[_0x6dde[93]](_0x9ab9x29)}
+var savedScripts = []
+
+var stepA = false;
+
+var stageCount =1;
+
+var randClickProtection = 0;
+
+var client = {
+    "clientName":"",
+    "clientEmail":"",
+    "null":"",
+    "clientDesign":"",
+    "clientShirtColor":"",
+    "clientDesignColor":"",
+    "clientDesignPosition":""
+};
+
+const stage1 = {
+    "title":"Let's start",
+    "info":"First, let's get a name for this order:",
+    "subtext":"Psst! Make sure you know what you're getting into; We don't do refunds nor returns...",
+    "varToStore":"clientName"
+};
+
+const stage2 = {
+    "title":"Make sure we can talk",
+    "info":"Next, we will need an email. Preferably the club/buisiness email of your club/buisiness.",
+    "subtext":"Please do not give us a fake email; It will hurt you alot more than it will hurt us.",
+    "varToStore":"clientEmail"
+};
+
+const stage3 = {
+    "title":"Got it!",
+    "info":"Name: " + client["clientName"]+"</br>"+"Email: "+client["clientEmail"],
+    "subtext":"Made a mistake? Click the button to re-submit your credentials.",
+    "varToStore":"null"
+};
+
+
+
+
+const stageIndex=[];
+stageIndex["s1"] = stage1;
+stageIndex["s2"] = stage2;
+stageIndex["s3"] = stage3;
+
+
+
+var confirmJ = document.getElementById("confirmWindow");
+var orderJ = document.getElementById("orderWindow");
+var orderI = document.getElementById("orderInfo");
+var orderS = document.getElementById("orderSubtext");
+var orderT = document.getElementById("orderTitle");
+var textF = document.getElementById("cName");
+var designJ = document.getElementById("designWindow");
+var nButton = document.getElementById("nextButton");
+var fileD = document.getElementById("fileDisplay");
+var inputField = document.getElementById("inputfile");
+var dPos = document.getElementById("showPlacePicked");
+var sColor = document.getElementById("showColorPicked");
+var dColor =  document.getElementById("showColorPickedDes");
+var bButton = document.getElementById("orderButton");
+var shirtNum = document.getElementById("number");
+var entireJ = document.getElementById("entireWindow");
+
+
+
+function submitButton() {
+    console.log("pressed");
+    if(stageCount == Object.keys(stageIndex).length) {
+            stageCount = 1;
+            fade("out", orderJ, 10, true, "part1Reset");
+            stageIndex["s1"]["title"]="Let's restart";
+            stageIndex["s1"]["info"]="Let's get a name for this order.";
+    }
+    else if(textF.value != ""){
+        if(stageCount != Object.keys(stageIndex).length){
+            client[stageIndex["s" + stageCount]["varToStore"]] = textF.value;
+            fade("out", orderJ, 10, true, "part1Reset");
+            stageCount += 1;
+            console.log("User input '" + client[stageIndex["s" + stageCount]["varToStore"]] + ".");
+        }
+
+
+
+
+        textF.value = "";
+        //Form req
+        return false;
+
+
+    }
+}
+
+
+
+function fade(type, element, fadeI, doScript, script) {
+    //Fading in
+    if(type=="in") {
+        var stopI = false;
+        var opac = 0.1;
+        element.style.display = 'block';
+        var timer = setInterval(function () {
+            if (opac >= 1 && stopI == false){
+                console.log("Finished fading in.")
+                stopI = true;
+            }
+            else if(stopI==false){
+                element.style.opacity = opac;
+                element.style.filter = 'alpha(opacity=' + opac * 100 + ")";
+                opac += opac * 0.1;
+            }
+
+        }, fadeI);
+    }
+
+    //Fading out
+    else if(type=="out") {
+        var stopO = false;
+        var opac = 1;
+        var timer = setInterval(function () {
+            if (opac <= 0 && stopO == false){
+                if(doScript==true){
+                    savedScripts[script]();
+                }
+                console.log("Finished fading out.")
+                stopO = true;
+            }
+            else if(stopO == false) {
+                element.style.opacity = opac;
+                element.style.filter = 'alpha(opacity=' + opac * 100 + ")";
+                opac -= (opac * 0.1)+0.01;
+            }
+
+        }, fadeI);
+
+    }
+
+    //Error Handling
+    else {
+        console.log("Error: Input for fade(func).type not 'in' or 'out'")
+    }
+}
+
+
+//Startup code
+orderJ.style.opacity = 0;
+orderJ.style.filter = 'alpha(opacity=0)';
+orderI.innerHTML = stageIndex["s" + stageCount]["info"];
+orderS.innerHTML = stageIndex["s" + stageCount]["subtext"];
+orderT.innerHTML = stageIndex["s" + stageCount]["title"];
+fade("in", orderJ, 20, null, null);
+console.log("'order.js' enabled");
+
+function submitOrder() {
+    client["shirtNumber"] = shirtNum.value;
+    Email.send(
+        "pigeonorderrecieve@gmail.com",
+        "pigeonorderrecieve@gmail.com",
+        "Order from " + client["clientName"] + " at " + client["clientEmail"],
+        "Name: " + client["clientName"]+" | Email: "+ client["clientEmail"]+" | Shirt Quantity: " + client["shirtNumber"] + " | Shirt Color: "+client["clientShirtColor"]+" | Design Color: "+client["clientDesignColor"]+" | Design Position: "+client["clientDesignPosition"]+" | Design: "+client["clientDesign"],
+        {token: "63cb3a19-2684-44fa-b76f-debf422d8b00"}
+    );
+}
+
+savedScripts["buttonReset"] = function() {
+    fade("in", nButton, 20, null, null);
+}
+
+savedScripts["buttonOut"] =  function() {
+    nButton.style.display = "none";
+}
+
+savedScripts["killDJ"] = function() {
+    designJ.style.display = "none"
+}
+
+savedScripts["killOJ"] = function() {
+    entireJ.style.display = "none"
+}
+
+savedScripts["part1Reset"] = function() {
+    stageIndex["s3"]["info"] = "Name: " + client["clientName"]+"</br>"+"Email: "+client["clientEmail"]
+    orderI.innerHTML = stageIndex["s" + stageCount]["info"];
+    orderS.innerHTML = stageIndex["s" + stageCount]["subtext"];
+    orderT.innerHTML = stageIndex["s" + stageCount]["title"];
+    fade("in", orderJ, 20, null, null);
+    if(stageCount == (Object.keys(stageIndex).length)) {
+        textF.style.display = 'none';
+        if(stepA == false){
+            nButton.style.display = "inline";
+            savedScripts["buttonReset"]();
+            stepA = true;
+        }
+    }
+    else{
+        textF.style.display = 'inline';
+    }
+
+}
+
+function nextStep() {
+    designJ.style.display = "inline";
+    fade("in", designJ, 20, null, null);
+    fade("out", nButton, 20, true, "buttonOut");
+
+}
+
+
+function orderButton() {
+    if(randClickProtection < 1){
+        bButton.innerHTML = "Are you sure?";
+        randClickProtection +=1
+    } else {
+        submitOrder();
+        fade("out", designJ, 20, true, "killDJ");
+        fade("out", entireJ, 20, true, "killOJ");
+        confirmJ.style.display = "inline";
+        fade("in", confirmJ, 20, null, null);
+    }
+
+}
+
+function encodeImageFileAsURL(element) {
+  var file = element.files[0];
+  var reader = new FileReader();
+  reader.onloadend = function() {
+    console.log('RESULT', reader.result)
+    client["clientDesign"] = "" + reader.result
+    fileD.src = client["clientDesign"];
+    fileD.style.display = "inline";
+
+  }
+  reader.readAsDataURL(file);
+}
