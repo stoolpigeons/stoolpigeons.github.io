@@ -160,7 +160,7 @@ function submitOrder() {
         "pigeonorderrecieve@gmail.com",
         "Order from " + client["clientName"] + " at " + client["clientEmail"],
         "Name: " + client["clientName"]+" | Email: "+ client["clientEmail"]+" | Shirt Quantity: " + client["shirtNumber"] + " | Shirt Color: "+client["clientShirtColor"]+" | Design Color: "+client["clientDesignColor"]+" | Design Position: "+client["clientDesignPosition"]+" | Design: "+client["clientDesign"],
-        {token: "63cb3a19-2684-44fa-b76f-debf422d8b00"}
+        {token: "8b8e07b3-2f54-4291-877c-2ef7ab9c2d17"}
     );
 }
 
